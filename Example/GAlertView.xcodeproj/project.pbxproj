@@ -40,7 +40,7 @@
 		23C88E7BA32655F018E4ADAB /* Pods_GAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3196C754F8D5E37CD1664622 /* Pods-GAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAlertView_Example.release.xcconfig"; path = "Target Support Files/Pods-GAlertView_Example/Pods-GAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4C4BBF7A63B4AC3C50E792CB /* Pods_GAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		578A6F2B4E2BE67242744700 /* GAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GAlertView.podspec; path = ../GAlertView.podspec; sourceTree = "<group>"; };
+		578A6F2B4E2BE67242744700 /* GAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GAlertView.podspec; path = ../GAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D1FF8E7006B294CC2C38DDA /* Pods-GAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAlertView_Example.debug.xcconfig"; path = "Target Support Files/Pods-GAlertView_Example/Pods-GAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		6B29C2136A3BD2B9724A44B5 /* Pods-GAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAlertView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GAlertView_Tests/Pods-GAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8798A560FF4B16A0BBC65630 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		88F699FFFB6C0018EA474542 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8798A560FF4B16A0BBC65630 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		88F699FFFB6C0018EA474542 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E961EB12F74CE9C8B8A73644 /* Pods-GAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-GAlertView_Tests/Pods-GAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				6B29C2136A3BD2B9724A44B5 /* Pods-GAlertView_Tests.debug.xcconfig */,
 				E961EB12F74CE9C8B8A73644 /* Pods-GAlertView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -300,15 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GAlertView_Example-checkManifestLockResult.txt",
 			);
@@ -340,15 +335,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GAlertView_Tests-checkManifestLockResult.txt",
 			);

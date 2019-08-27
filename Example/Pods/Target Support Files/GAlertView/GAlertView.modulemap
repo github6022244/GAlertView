@@ -1,0 +1,6 @@
+framework module GAlertView {
+  umbrella header "GAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'GAlertView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GAlertView.'
+  s.summary          = 'GAlertView 是 iOS 平台 OC 语言，自定义弹框类'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
 end

@@ -1,0 +1,16 @@
+PODS:
+  - GAlertView (0.1.0)
+
+DEPENDENCIES:
+  - GAlertView (from `../`)
+
+EXTERNAL SOURCES:
+  GAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GAlertView: bbc12535f0491fb293dd48d2a05386b5a2b5e696
+
+PODFILE CHECKSUM: ed73a85d54c22911061666e4d8cc308093830f68
+
+COCOAPODS: 1.7.4
