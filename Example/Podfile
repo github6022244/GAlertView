@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'GAlertView_Example' do
+  pod 'GAlertView', :path => '../'
+
+  target 'GAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
